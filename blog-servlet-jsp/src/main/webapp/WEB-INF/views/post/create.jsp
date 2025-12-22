@@ -7,6 +7,12 @@
 </head>
 <body>
 
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
 <h2>Thêm bài viết mới</h2>
 
 <form action="${pageContext.request.contextPath}/posts/create" method="post">

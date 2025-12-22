@@ -7,6 +7,13 @@
     <meta charset="UTF-8">
     <title>Đăng nhập</title>
 </head>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
 <body>
 <h2>Đăng nhập</h2>
 <c:if test="${not empty error}">

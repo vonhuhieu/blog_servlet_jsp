@@ -7,6 +7,12 @@
 </head>
 <body>
 
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
 <h2>Sửa bài viết</h2>
 
 <form action="${pageContext.request.contextPath}/posts/edit" method="post">

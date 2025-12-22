@@ -2,6 +2,13 @@
 <html>
 <head><title>Đăng ký</title></head>
 <body>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
 <h2>Đăng ký</h2>
 <c:if test="${not empty error}">
     <p style="color:red">${error}</p>

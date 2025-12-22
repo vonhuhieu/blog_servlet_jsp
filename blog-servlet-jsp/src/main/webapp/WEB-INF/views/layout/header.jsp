@@ -1,5 +1,12 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
 <div style="background-color:#333; color:white; padding:10px;">
     <a href="${pageContext.request.contextPath}/posts" style="color:white; margin-right:20px;">🏠 Trang chủ</a>
 
