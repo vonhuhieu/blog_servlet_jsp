@@ -10,7 +10,6 @@
 <h2>Sửa bài viết</h2>
 
 <form action="${pageContext.request.contextPath}/posts/edit" method="post">
-    <!-- Giữ id ẩn -->
     <input type="hidden" name="id" value="${post.id}">
 
     <div>

@@ -2,6 +2,7 @@ package com.example.blog.servlet;
 
 import com.example.blog.dao.PostDAO;
 import com.example.blog.model.Post;
+import com.example.blog.model.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

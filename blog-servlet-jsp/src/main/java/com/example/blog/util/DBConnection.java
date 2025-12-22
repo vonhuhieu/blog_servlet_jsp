@@ -12,10 +12,9 @@ public class DBConnection {
                     + "&serverTimezone=Asia/Ho_Chi_Minh";
 
     private static final String USER = "root";
-    private static final String PASSWORD = ""; // sửa cho đúng
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() throws Exception {
-        // 🔥 DÒNG QUAN TRỌNG NHẤT
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         return DriverManager.getConnection(URL, USER, PASSWORD);

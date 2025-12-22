@@ -13,7 +13,6 @@ public class PostEditServlet extends HttpServlet {
 
     private final PostDAO postDAO = new PostDAO();
 
-    // Hiển thị form sửa
     @Override
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response)
@@ -39,7 +38,6 @@ public class PostEditServlet extends HttpServlet {
                 .forward(request, response);
     }
 
-    // Xử lý cập nhật
     @Override
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response)
